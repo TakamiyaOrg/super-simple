@@ -1,0 +1,7 @@
+---
+- name: Super Simple
+  hosts: all
+  tasks:
+    - name: Debug msg
+      debug:
+        msg: Simple message
