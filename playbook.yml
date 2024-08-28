@@ -3,5 +3,5 @@
   hosts: all
   tasks:
     - name: Debug msg
-      debug:
+      ansible.builtin.debug:
         msg: Simple message
